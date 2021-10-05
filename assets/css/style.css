@@ -1,3 +1,4 @@
+/*This is a universal selector that gives the styling to everything on the page*/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -9,23 +10,26 @@
 body {
   background-color: #d9dcd6;
 }
-
+/*gives all the body h2 tags this style unless overridden by */
 body h2 {
   font-size: 36px;
   margin-bottom: 20px;
 }
 
+/*provides padding and coloration to the header class*/
 .header {
   padding: 20px;
   background-color: #2a607c;
   color: #ffffff;
 }
 
+/*this targets the h1 tag in the header class*/
 .header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
+/*similar as before this targets the div in the header class*/
 .header div {
   padding-top: 15px;
   margin-right: 20px;
@@ -34,24 +38,29 @@ body h2 {
   font-size: 20px;
 }
 
+/*applies this style to unordered list in the div underneath the header class*/
 .header div ul {
   list-style-type: none;
 }
 
+/*applies these styles to the listed items in the unordered list tag*/
 .header div ul li {
   display: inline-block;
   margin-left: 25px;
 }
 
+/*selects the links and removes the underline and gives it a color*/
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/*everything in a paragraph tag gets this style*/
 p {
   font-size: 16px;
 }
 
+/*this style sets the image as the background and  modifies its dimensions and position*/
 .hero {
   height: 800px;
   width: 100%;
@@ -61,50 +70,19 @@ p {
   background-position: center;
 }
 
-.float-left {
-  float: left;
-  margin-right: 25px;
-}
-
-.float-right {
-  float: right;
-  margin-left: 25px;
-}
-
+/*the styles in this class positions and determines the width of the box the images and text lies in*/
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
+/*this determines the size of the images inside the content box*/
 .content img {
   max-height: 200px;
 }
 
-.benefits {
-  margin-right: 20px;
-  padding: 20px;
-  clear: both;
-  float: right;
-  width: 20%;
-  height: 100%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #2589bd;
-  color: #ffffff;
-  margin-bottom: 32px;
-}
-
-.benefits h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefits img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
+/*The styling here provides seperation from the other content boxes and space between the edge of the box and its contents, same goes for the other two aswell*/
 .search-engine-optimization {
   margin-bottom: 20px;
   padding: 50px;
@@ -128,12 +106,53 @@ p {
   color: #ffffff;
 }
 
+/*Makes the images inside the top and bottom content boxes move to the left */
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+/*the image in the center content box is moved to the right*/
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+/*creates, positions and colors the box to the right of the page as well as seperates it from the content boxes */
+.benefits {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+  background-color: #2589bd;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+
+/*Centers the h3 text inside the benefits box and creates a margin from other components below it*/
+.benefits h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/*Gives the black icons or images proper sizing and display within the content box*/
+.benefits img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+/*puts footer text in the center and distance between it and the content boxes above*/
 .footer {
   padding: 30px;
   clear: both;
   text-align: center;
 }
-
+/*increases the size of the h2 text in the footer*/
 .footer h2 {
   font-size: 20px;
 }
