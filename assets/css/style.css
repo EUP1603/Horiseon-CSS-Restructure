@@ -17,6 +17,16 @@ body h2 {
   margin-bottom: 20px;
 }
 
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*The a gives links we provided a style and we changed all paragraph text size*/
+p {
+  font-size: 16px;
+}
+
 .header {
   padding: 20px;
   background-color: #2a607c;
@@ -44,17 +54,6 @@ body h2 {
   display: inline-block;
   margin-left: 25px;
 }
-
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-/*The a gives links we provided a style and we changed all paragraph text size*/
-p {
-  font-size: 16px;
-}
-
 /*this style sets the image as the background and  modifies its dimensions and position*/
 .hero {
   height: 800px;
