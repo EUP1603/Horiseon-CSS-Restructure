@@ -4,58 +4,53 @@
   padding: 0;
   margin: 0;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+    "Lucida Sans", Arial, "Gill Sans", sans-serif;
 }
 
 body {
   background-color: #d9dcd6;
 }
+
 /*gives all the body h2 tags this style unless overridden by */
 body h2 {
   font-size: 36px;
   margin-bottom: 20px;
 }
 
-/*provides padding and coloration to the header class*/
 .header {
   padding: 20px;
   background-color: #2a607c;
   color: #ffffff;
 }
 
-/*this targets the h1 tag in the header class*/
 .header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
-/*similar as before this targets the div in the header class*/
 .header div {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
 }
 
-/*applies this style to unordered list in the div underneath the header class*/
+/*The header class provides customization and position to anything in the div its located in*/
 .header div ul {
   list-style-type: none;
 }
 
-/*applies these styles to the listed items in the unordered list tag*/
 .header div ul li {
   display: inline-block;
   margin-left: 25px;
 }
 
-/*selects the links and removes the underline and gives it a color*/
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
-/*everything in a paragraph tag gets this style*/
+/*The a gives links we provided a style and we changed all paragraph text size*/
 p {
   font-size: 16px;
 }
@@ -69,20 +64,18 @@ p {
   background-size: cover;
   background-position: center;
 }
-
-/*the styles in this class positions and determines the width of the box the images and text lies in*/
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
-/*this determines the size of the images inside the content box*/
+/*The content class provides positioning of the boxes and its content beneath the background image*/
 .content img {
   max-height: 200px;
 }
 
-/*The styling here provides seperation from the other content boxes and space between the edge of the box and its contents, same goes for the other two aswell*/
+/*The styling here provides seperation from the other content boxes and space between the edge of the box and its contents, same goes for the other two as well*/
 .search-engine-optimization {
   margin-bottom: 20px;
   padding: 50px;
@@ -105,20 +98,17 @@ p {
   background-color: #0072bb;
   color: #ffffff;
 }
-
-/*Makes the images inside the top and bottom content boxes move to the left */
 .float-left {
   float: left;
   margin-right: 25px;
 }
 
-/*the image in the center content box is moved to the right*/
+/*float-right and float-left change the direction the images are placed */
 .float-right {
   float: right;
   margin-left: 25px;
 }
 
-/*creates, positions and colors the box to the right of the page as well as seperates it from the content boxes */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -126,33 +116,29 @@ p {
   float: right;
   width: 20%;
   height: 100%;
-  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
-    sans-serif;
   background-color: #2589bd;
   color: #ffffff;
   margin-bottom: 32px;
 }
 
-/*Centers the h3 text inside the benefits box and creates a margin from other components below it*/
+/*Benefits class targets the box on the right hand side of the content*/
 .benefits h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
-/*Gives the black icons or images proper sizing and display within the content box*/
 .benefits img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
-/*puts footer text in the center and distance between it and the content boxes above*/
 .footer {
   padding: 30px;
   clear: both;
   text-align: center;
 }
-/*increases the size of the h2 text in the footer*/
+/*The footer class places our ending message and copyright at the bottom of the page*/
 .footer h2 {
   font-size: 20px;
 }

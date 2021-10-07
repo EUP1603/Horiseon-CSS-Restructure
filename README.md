@@ -7,3 +7,5 @@ My motivation for this project was to test my ability to catch repeating code an
 During this project I learned that there can be a lot of repeating code that doesnt need to be there and still achieve the same outcome. Unnecessary class elements lead to unnecessary css code.
 
 Github Repository: https://github.com/EUP1603/ProjectHoriseon
+
+Horiseon Live URL: https://eup1603.github.io/Horiseon-CSS-Restructure/
